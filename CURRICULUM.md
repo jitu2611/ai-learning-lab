@@ -1,223 +1,179 @@
 # AI Learning Lab Curriculum
 
-One hundred progressive chapters. Chapter 1 is implemented; later chapters are planned with a concrete build target.
+An 80-chapter, developer-focused path from AI foundations to production applications. Chapter 001 is implemented; further chapters are developed progressively with a concrete build target.
 
-## 01 Foundations and Vector Search
+## 01 AI Building Blocks
 
 - [001. Vector Databases](chapter-001-vector-databases/)
 
-- [002. Python Environment and CLI Tools](chapter-002-python-environment-and-cli-tools/)
+- [002. Embedding Models](chapter-002-embedding-models/)
 
-- [003. Python Data Types and Control Flow](chapter-003-python-data-types-and-control-flow/)
+- [003. Production Tokenization](chapter-003-production-tokenization/)
 
-- [004. Functions, Modules, and Packages](chapter-004-functions-modules-and-packages/)
+- [004. Attention Mechanisms](chapter-004-attention-mechanisms/)
 
-- [005. Files, JSON, and CSV](chapter-005-files-json-and-csv/)
+- [005. Transformer Architecture](chapter-005-transformer-architecture/)
 
-- [006. NumPy Arrays and Vectorization](chapter-006-numpy-arrays-and-vectorization/)
+- [006. LLM Inference](chapter-006-llm-inference/)
 
-- [007. Linear Algebra for AI](chapter-007-linear-algebra-for-ai/)
+- [007. Similarity Metrics](chapter-007-similarity-metrics/)
 
-- [008. Probability and Statistics](chapter-008-probability-and-statistics/)
+- [008. Approximate Nearest Neighbour Search](chapter-008-approximate-nearest-neighbour-search/)
 
-- [009. Optimization Intuition](chapter-009-optimization-intuition/)
+- [009. Context Windows](chapter-009-context-windows/)
 
-- [010. Similarity Search and ANN Indexes](chapter-010-similarity-search-and-ann-indexes/)
+- [010. GPU Computing for AI](chapter-010-gpu-computing-for-ai/)
 
-## 02 Classical Machine Learning
+## 02 LLM Application Foundations
 
-- [011. Data Collection and Dataset Splits](chapter-011-data-collection-and-dataset-splits/)
+- [011. Choosing an LLM](chapter-011-choosing-an-llm/)
 
-- [012. Data Cleaning and Feature Engineering](chapter-012-data-cleaning-and-feature-engineering/)
+- [012. Calling Model APIs](chapter-012-calling-model-apis/)
 
-- [013. Linear Regression](chapter-013-linear-regression/)
+- [013. Prompt Engineering](chapter-013-prompt-engineering/)
 
-- [014. Logistic Regression](chapter-014-logistic-regression/)
+- [014. System Prompts and Context Design](chapter-014-system-prompts-and-context-design/)
 
-- [015. Loss Functions and Gradient Descent](chapter-015-loss-functions-and-gradient-descent/)
+- [015. Structured Outputs](chapter-015-structured-outputs/)
 
-- [016. Regularization](chapter-016-regularization/)
+- [016. Function Calling](chapter-016-function-calling/)
 
-- [017. Decision Trees](chapter-017-decision-trees/)
+- [017. Streaming Responses](chapter-017-streaming-responses/)
 
-- [018. Random Forests and Gradient Boosting](chapter-018-random-forests-and-gradient-boosting/)
+- [018. Caching LLM Requests](chapter-018-caching-llm-requests/)
 
-- [019. Clustering with K-Means](chapter-019-clustering-with-k-means/)
+- [019. Rate Limits and Retries](chapter-019-rate-limits-and-retries/)
 
-- [020. Model Metrics and Cross Validation](chapter-020-model-metrics-and-cross-validation/)
+- [020. Build a Minimal LLM Application](chapter-020-build-a-minimal-llm-application/)
 
-## 03 Neural Network Fundamentals
+## 03 Retrieval-Augmented Generation
 
-- [021. Perceptrons and Activation Functions](chapter-021-perceptrons-and-activation-functions/)
+- [021. Document Ingestion Pipelines](chapter-021-document-ingestion-pipelines/)
 
-- [022. Neural Network Forward Pass](chapter-022-neural-network-forward-pass/)
+- [022. Chunking Strategies](chapter-022-chunking-strategies/)
 
-- [023. Backpropagation](chapter-023-backpropagation/)
+- [023. Metadata and Access Filters](chapter-023-metadata-and-access-filters/)
 
-- [024. PyTorch Tensors and Autograd](chapter-024-pytorch-tensors-and-autograd/)
+- [024. Hybrid Search](chapter-024-hybrid-search/)
 
-- [025. Training Loops and Optimizers](chapter-025-training-loops-and-optimizers/)
+- [025. Reranking](chapter-025-reranking/)
 
-- [026. Overfitting and Dropout](chapter-026-overfitting-and-dropout/)
+- [026. Query Rewriting](chapter-026-query-rewriting/)
 
-- [027. Batch Normalization](chapter-027-batch-normalization/)
+- [027. RAG Prompt Construction](chapter-027-rag-prompt-construction/)
 
-- [028. Learning Rate Schedules](chapter-028-learning-rate-schedules/)
+- [028. Citations and Grounding](chapter-028-citations-and-grounding/)
 
-- [029. Convolutional Neural Networks](chapter-029-convolutional-neural-networks/)
+- [029. Conversational RAG](chapter-029-conversational-rag/)
 
-- [030. Image Classification Project](chapter-030-image-classification-project/)
+- [030. Build a RAG Application](chapter-030-build-a-rag-application/)
 
-## 04 Natural Language Processing
+## 04 AI Agents
 
-- [031. Text Normalization and Tokenization](chapter-031-text-normalization-and-tokenization/)
+- [031. Agent Loops and Planning](chapter-031-agent-loops-and-planning/)
 
-- [032. Subword Tokenizers](chapter-032-subword-tokenizers/)
+- [032. Tool Design](chapter-032-tool-design/)
 
-- [033. Bag of Words and TF-IDF](chapter-033-bag-of-words-and-tf-idf/)
+- [033. Tool Schemas and Validation](chapter-033-tool-schemas-and-validation/)
 
-- [034. Word Embeddings](chapter-034-word-embeddings/)
+- [034. Tool Error Handling](chapter-034-tool-error-handling/)
 
-- [035. Sequence Models and RNNs](chapter-035-sequence-models-and-rnns/)
+- [035. Agent State Machines](chapter-035-agent-state-machines/)
 
-- [036. Attention Mechanisms](chapter-036-attention-mechanisms/)
+- [036. Short-Term Memory](chapter-036-short-term-memory/)
 
-- [037. Transformer Architecture](chapter-037-transformer-architecture/)
+- [037. Long-Term Memory](chapter-037-long-term-memory/)
 
-- [038. Self Attention from Scratch](chapter-038-self-attention-from-scratch/)
+- [038. Agentic RAG](chapter-038-agentic-rag/)
 
-- [039. Positional Encodings](chapter-039-positional-encodings/)
+- [039. Human-in-the-Loop Workflows](chapter-039-human-in-the-loop-workflows/)
 
-- [040. Text Classification Project](chapter-040-text-classification-project/)
+- [040. Build an AI Agent](chapter-040-build-an-ai-agent/)
 
-## 05 Large Language Models
+## 05 Models and Adaptation
 
-- [041. Language Modeling and Next Token Prediction](chapter-041-language-modeling-and-next-token-prediction/)
+- [041. Open-Source Model Inference](chapter-041-open-source-model-inference/)
 
-- [042. Pretraining Data and Objectives](chapter-042-pretraining-data-and-objectives/)
+- [042. Model Quantization](chapter-042-model-quantization/)
 
-- [043. Decoder Only Transformers](chapter-043-decoder-only-transformers/)
+- [043. Instruction Tuning](chapter-043-instruction-tuning/)
 
-- [044. Sampling: Temperature Top-K and Top-P](chapter-044-sampling-temperature-top-k-and-top-p/)
+- [044. Fine-Tuning Datasets](chapter-044-fine-tuning-datasets/)
 
-- [045. Prompt Engineering](chapter-045-prompt-engineering/)
+- [045. LoRA and PEFT](chapter-045-lora-and-peft/)
 
-- [046. System Prompts and Context Windows](chapter-046-system-prompts-and-context-windows/)
+- [046. Synthetic Data Generation](chapter-046-synthetic-data-generation/)
 
-- [047. Structured Outputs](chapter-047-structured-outputs/)
+- [047. Preference Optimization](chapter-047-preference-optimization/)
 
-- [048. Function and Tool Calling](chapter-048-function-and-tool-calling/)
+- [048. Fine-Tuning Evaluation](chapter-048-fine-tuning-evaluation/)
 
-- [049. Open Source Model Inference](chapter-049-open-source-model-inference/)
+- [049. Model Distillation](chapter-049-model-distillation/)
 
-- [050. LLM Application Project](chapter-050-llm-application-project/)
+- [050. Build a Domain Assistant](chapter-050-build-a-domain-assistant/)
 
-## 06 Embeddings and RAG
+## 06 Evaluation, Safety, and Reliability
 
-- [051. Embedding Models and Dimensions](chapter-051-embedding-models-and-dimensions/)
+- [051. Evaluation Dataset Design](chapter-051-evaluation-dataset-design/)
 
-- [052. Document Chunking Strategies](chapter-052-document-chunking-strategies/)
+- [052. Retrieval Metrics](chapter-052-retrieval-metrics/)
 
-- [053. Metadata and Filters](chapter-053-metadata-and-filters/)
+- [053. LLM-as-a-Judge](chapter-053-llm-as-a-judge/)
 
-- [054. Hybrid Search: BM25 and Vectors](chapter-054-hybrid-search-bm25-and-vectors/)
+- [054. Tracing and Observability](chapter-054-tracing-and-observability/)
 
-- [055. Reranking](chapter-055-reranking/)
+- [055. Hallucination Reduction](chapter-055-hallucination-reduction/)
 
-- [056. Retrieval Evaluation](chapter-056-retrieval-evaluation/)
+- [056. Prompt Injection Defense](chapter-056-prompt-injection-defense/)
 
-- [057. RAG Prompt Construction](chapter-057-rag-prompt-construction/)
+- [057. Data Privacy and Access Control](chapter-057-data-privacy-and-access-control/)
 
-- [058. Citation and Grounding](chapter-058-citation-and-grounding/)
+- [058. Safety Guardrails](chapter-058-safety-guardrails/)
 
-- [059. Conversational RAG](chapter-059-conversational-rag/)
+- [059. Latency and Cost Optimization](chapter-059-latency-and-cost-optimization/)
 
-- [060. RAG Application Project](chapter-060-rag-application-project/)
+- [060. Build a Reliable AI System](chapter-060-build-a-reliable-ai-system/)
 
-## 07 Adapting Models
+## 07 Production AI Products
 
-- [061. Instruction Tuning](chapter-061-instruction-tuning/)
+- [061. ChatGPT-Style Application Architecture](chapter-061-chatgpt-style-application-architecture/)
 
-- [062. Supervised Fine Tuning Data](chapter-062-supervised-fine-tuning-data/)
+- [062. Streaming Chat UI](chapter-062-streaming-chat-ui/)
 
-- [063. LoRA and Parameter Efficient Fine Tuning](chapter-063-lora-and-parameter-efficient-fine-tuning/)
+- [063. Conversation Persistence](chapter-063-conversation-persistence/)
 
-- [064. Quantization](chapter-064-quantization/)
+- [064. User Authentication and Multi-Tenancy](chapter-064-user-authentication-and-multi-tenancy/)
 
-- [065. Preference Optimization](chapter-065-preference-optimization/)
+- [065. File Upload and Chat With Documents](chapter-065-file-upload-and-chat-with-documents/)
 
-- [066. Synthetic Data Generation](chapter-066-synthetic-data-generation/)
+- [066. Tool-Enabled Chat](chapter-066-tool-enabled-chat/)
 
-- [067. Fine Tuning Evaluation](chapter-067-fine-tuning-evaluation/)
+- [067. Feedback and Product Analytics](chapter-067-feedback-and-product-analytics/)
 
-- [068. Model Distillation](chapter-068-model-distillation/)
+- [068. Background Jobs and Queues](chapter-068-background-jobs-and-queues/)
 
-- [069. Domain Adaptation](chapter-069-domain-adaptation/)
+- [069. Deploying an AI Application](chapter-069-deploying-an-ai-application/)
 
-- [070. Fine Tuned Assistant Project](chapter-070-fine-tuned-assistant-project/)
+- [070. Build a ChatGPT-Style Application](chapter-070-build-a-chatgpt-style-application/)
 
-## 08 Agents and Memory
+## 08 Multimodal and Capstone Systems
 
-- [071. Agent Loops and Planning](chapter-071-agent-loops-and-planning/)
+- [071. Vision Language Models](chapter-071-vision-language-models/)
 
-- [072. Tool Design](chapter-072-tool-design/)
+- [072. Image Embeddings and Search](chapter-072-image-embeddings-and-search/)
 
-- [073. Tool Error Handling](chapter-073-tool-error-handling/)
+- [073. Speech-to-Text and Text-to-Speech](chapter-073-speech-to-text-and-text-to-speech/)
 
-- [074. Agent State Machines](chapter-074-agent-state-machines/)
+- [074. Multimodal RAG](chapter-074-multimodal-rag/)
 
-- [075. Short Term Memory](chapter-075-short-term-memory/)
+- [075. AI System Architecture](chapter-075-ai-system-architecture/)
 
-- [076. Long Term Memory](chapter-076-long-term-memory/)
+- [076. Security Threat Modeling](chapter-076-security-threat-modeling/)
 
-- [077. Agentic RAG](chapter-077-agentic-rag/)
+- [077. Cost Architecture](chapter-077-cost-architecture/)
 
-- [078. Multi Agent Collaboration](chapter-078-multi-agent-collaboration/)
+- [078. Open-Source AI Contributions](chapter-078-open-source-ai-contributions/)
 
-- [079. Human in the Loop](chapter-079-human-in-the-loop/)
+- [079. Capstone Architecture](chapter-079-capstone-architecture/)
 
-- [080. Agent Project](chapter-080-agent-project/)
-
-## 09 Reliability and Safety
-
-- [081. LLM Evaluation Design](chapter-081-llm-evaluation-design/)
-
-- [082. Automated Evaluators](chapter-082-automated-evaluators/)
-
-- [083. Tracing and Observability](chapter-083-tracing-and-observability/)
-
-- [084. Prompt Injection](chapter-084-prompt-injection/)
-
-- [085. Data Privacy and Access Control](chapter-085-data-privacy-and-access-control/)
-
-- [086. Hallucination Reduction](chapter-086-hallucination-reduction/)
-
-- [087. Bias and Fairness](chapter-087-bias-and-fairness/)
-
-- [088. Red Teaming](chapter-088-red-teaming/)
-
-- [089. Latency and Cost Optimization](chapter-089-latency-and-cost-optimization/)
-
-- [090. Reliable AI System Project](chapter-090-reliable-ai-system-project/)
-
-## 10 Production and Advanced AI
-
-- [091. API Design for AI Services](chapter-091-api-design-for-ai-services/)
-
-- [092. Async Jobs and Queues](chapter-092-async-jobs-and-queues/)
-
-- [093. Caching](chapter-093-caching/)
-
-- [094. Deployment with Containers](chapter-094-deployment-with-containers/)
-
-- [095. Model Serving](chapter-095-model-serving/)
-
-- [096. Monitoring and Incident Response](chapter-096-monitoring-and-incident-response/)
-
-- [097. Multimodal Models](chapter-097-multimodal-models/)
-
-- [098. Speech and Vision Applications](chapter-098-speech-and-vision-applications/)
-
-- [099. Capstone Architecture](chapter-099-capstone-architecture/)
-
-- [100. Capstone: Production AI Assistant](chapter-100-capstone-production-ai-assistant/)
+- [080. Capstone: Production AI Assistant](chapter-080-capstone-production-ai-assistant/)
