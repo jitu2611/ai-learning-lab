@@ -1,16 +1,22 @@
-# Vector Database Learning Lab
+# AI Learning Lab
 
-A small, runnable project that explains the path from a sentence to semantic search:
+A progressive, hands-on repository for learning AI systems from first principles through practical implementations.
+
+## Chapter 1 — Vector Databases
+
+This first chapter explains the path from a sentence to semantic search:
 
 ```text
 text → tokens → token IDs → contextual token vectors → pooled embedding
      → vector database → nearest-neighbour search → source chunks
 ```
 
-It contains two tracks:
+This chapter contains two tracks:
 
 - **`learning/`** — transparent, tiny implementations. They illustrate the algorithms; they are not trained language models.
 - **`production/`** — a practical local semantic-search application using Sentence Transformers and ChromaDB.
+
+Future chapters can live beside this chapter (for example `chapter-02-...`) while its code remains under this repository's Chapter 1 structure.
 
 > A vector database retrieves stored source text. It does not generate the next word. Add an LLM after retrieval to make a RAG application.
 
