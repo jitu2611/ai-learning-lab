@@ -1,16 +1,28 @@
 # AI Learning Lab
 
-A progressive, hands-on repository for learning how modern AI systems work.
+A progressive, hands-on curriculum for understanding and building modern AI systems.
 
-## Learning roadmap
+## Curriculum
 
-| Chapter | Topic | Status |
-|---|---|---|
-| 1 | [Vector Databases](chapter-01-vector-databases/) | Available |
-| 2 | Embeddings and semantic search | Planned |
-| 3 | Transformers and language models | Planned |
-| 4 | Retrieval-Augmented Generation (RAG) | Planned |
-| 5 | AI agents, tools, and memory | Planned |
-| 6 | Evaluation, safety, and production systems | Planned |
+The lab contains **100 chapters**, ordered from fundamentals to production systems.
 
-Each chapter is self-contained: its README, learning examples, practical examples, data, and dependencies live in its own folder.
+| Module | Focus |
+|---|---|
+| 1 | Foundations and vector search |
+| 2 | Classical machine learning |
+| 3 | Neural network fundamentals |
+| 4 | Natural language processing |
+| 5 | Large language models |
+| 6 | Embeddings and RAG |
+| 7 | Adapting and fine-tuning models |
+| 8 | Agents and memory |
+| 9 | Reliability and safety |
+| 10 | Production and advanced AI |
+
+See [CURRICULUM.md](CURRICULUM.md) for the chapter-by-chapter roadmap.
+
+Each chapter is self-contained in its own `chapter-###-topic/` folder with a README, concepts, examples, and practical implementation as it is developed.
+
+## Current chapter
+
+- [Chapter 001 — Vector Databases](chapter-001-vector-databases/): implemented learning scripts and a local production semantic-search example.
